@@ -1,0 +1,1 @@
+INSERT INTO pokemons (name, type, hp) VALUES ('Charmander', 'Fire', 50);

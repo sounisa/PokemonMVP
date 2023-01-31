@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS pokemons;
+
+CREATE TABLE pokemons(
+   id SERIAL PRIMARY KEY NOT NULL,
+   name TEXT NOT NULL,
+   type TEXT NOT NULL,
+   hp INT NOT NULL
+);
